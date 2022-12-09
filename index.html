@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davanse Fly</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat&family=Pacifico&family=Roboto:ital,wght@1,400;1,700&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Davanse Fly</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse  justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#posts" class="nav-link">
+                            <i class="bi bi-file-post"></i></i>
+                            Posts 
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos 
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#drones" class="nav-link">
+                            <i class="bi bi-airplane"></i>
+                            Drones
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/drone-3773499_960_720.jpg" alt="Foto de drone">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/uav-1204464_960_720.jpg" alt="Foto de drone">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./imagens/drone-1765145_960_720.jpg" alt="Foto de drone">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <spa class="carousel-control-prev-icon"></spa>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <spa class="carousel-control-next-icon"></spa>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/drone-2676000_960_720.jpg" class="d-block w-100 rounded" alt="Foto de drone">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic esse asperiores maxime. Voluptate quia obcaecati nemo architecto corporis sit doloribus minus possimus, beatae cumque hic atque eos culpa exercitationem voluptatum.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eaque facilis? Asperiores consectetur labore, laudantium ut explicabo aut accusantium mollitia incidunt dignissimos fuga cumque veritatis delectus qui, ipsam in provident.</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique neque incidunt beatae, eligendi amet maxime tempora sapiente doloremque cupiditate, error magnam facere voluptatibus qui sint repudiandae quam.</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="posts">
+        <div class="container">
+            <div class="row">
+                <div class="mt-4 col-lg-4 col-md-6 col-xs-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Tudo sobre os drones em destaque
+                        </header>
+                        <img src="./imagens/drone-3773499_960_720.jpg" alt="Foto de drone">
+                        <div class="card-body">
+                            <h4 class="card-tittle">Drone Mavic Pro</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat nesciunt, tempora sint, optio neque magnam consectetur molestias suscipit aliquam porro tempore quo laborum excepturi animi libero dignissimos quasi corrupti facilis.
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                           Postado em <time> 06/12/2022 às 19:30</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class="mt-4 col-lg-4 col-md-6 col-xs-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Tudo sobre os drones em destaque
+                        </header>
+                        <img src="./imagens/uav-1204464_960_720.jpg" alt="Foto de drone">
+                        <div class="card-body">
+                            <h4 class="card-tittle">Drone Multilaser</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat nesciunt, tempora sint, optio neque magnam consectetur molestias suscipit aliquam porro tempore quo laborum excepturi animi libero dignissimos quasi corrupti facilis.
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                           Postado em <time> 07/12/2022 às 14:00</time>
+                        </footer>
+                    </article>
+                </div>
+                <div class=" mt-4 col-lg-4 col-md-6 col-xs-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Tudo sobre os drones em destaque
+                        </header>
+                        <img src="./imagens/drone-1765145_960_720.jpg" alt="Foto de drone">
+                        <div class="card-body">
+                            <h4 class="card-tittle">Drone Chroma</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat nesciunt, tempora sint, optio neque magnam consectetur molestias suscipit aliquam porro tempore quo laborum excepturi animi libero dignissimos quasi corrupti facilis.
+                            </p>
+                            <a href="#" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                           Postado em <time> 08/12/2022 às 23:00</time>
+                        </footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Testes dos drones <span class="text-colored">em destaque</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/drone-3773499_960_720.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-airplane-fill"></i>
+                            Drone Mavic Pro
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem similique, commodi illo voluptate aspernatur soluta amet ex molestiae quo beatae maxime exercitationem aliquam et laboriosam dolores odio molestias! Quos, perspiciatis.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/uav-1204464_960_720.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-airplane-fill"></i>
+                            Drone Multilaser
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem similique, commodi illo voluptate aspernatur soluta amet ex molestiae quo beatae maxime exercitationem aliquam et laboriosam dolores odio molestias! Quos, perspiciatis.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/drone-1765145_960_720.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-airplane-fill"></i>
+                            Drone Chroma
+                        </h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem similique, commodi illo voluptate aspernatur soluta amet ex molestiae quo beatae maxime exercitationem aliquam et laboriosam dolores odio molestias! Quos, perspiciatis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="drones" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">Drones</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-drones">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#drones-mavic" class="fw-bold text-start nav-link text-colored active">Drones Mavic</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#drones-multilaser" class="fw-bold text-start nav-link text-colored">Drones Multilaser</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#drones-chroma" class="fw-bold text-start nav-link text-colored">Drones Chroma</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="drones-mavic">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-3773499_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Mavic Pro 1</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-3773499_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Mavic Pro 2</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-3773499_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Mavic Pro 3</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-3773499_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Mavic Pro 4</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-3773499_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Mavic Pro 5</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="drones-multilaser">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/uav-1204464_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Multilaser 1</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/uav-1204464_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Multilaser 2</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/uav-1204464_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Multilaser 3</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/uav-1204464_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Multilaser 4</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/uav-1204464_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Multilaser 5</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="drones-chroma">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-1765145_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Chroma 1</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-1765145_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Chroma 2</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-1765145_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Chroma 3</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-1765145_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Chroma 4</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-1765145_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Chroma 5</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./imagens/drone-1765145_960_720.jpg" alt="Drone" />
+                                        <h5 class="text-colored fw-bold mt-2">Drone Chroma 6</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                            <input type="text" id="nome" class="form-control" required name="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
+                            <input type="email" id="email" class="form-control" required name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional):</label>
+                            <input type="tel" id="telefone" class="form-control" name="telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                            <textarea class="form-control" id="mensagem" required name="mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Teste Exemplo n°145, Bairro Bootstrap - São Paulo - SP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_PT.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

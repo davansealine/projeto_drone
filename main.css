@@ -1,0 +1,53 @@
+body{
+    font-family: Zen Dots, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(110, 109, 109);
+}
+
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: rgb(110, 109, 109);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-drones .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+#sobre-a-loja,
+#drones{
+    background-color: rgb(187, 185, 185);   
+}
+
+
+.text-colored{
+    color: rgb(197, 36, 36);
+}
+
+.nav-drones .nav-link.active,
+#fale-conosco button{
+    background-color: rgb(197, 36, 36);
+    color: #fff;
+}
+
+.nav-drones .nav-link:hover{
+    color: rgb(197, 36, 36);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
